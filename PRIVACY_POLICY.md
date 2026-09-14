@@ -12,7 +12,7 @@ The app does not require an account and does not operate a backend service. MaAl
 
 ## Document scanning
 
-When a user chooses to scan a document, Apple system scanning and on-device text recognition are used to suggest fields. Document images and recognized text are not uploaded to MaAlarm servers and are not retained by the app after the user finishes the scan flow. Users should review scan suggestions before saving.
+When a user chooses to scan a document or explicitly selects an existing photo, image, or PDF, Apple system pickers and on-device text recognition are used to suggest fields. MaAlarm can access only the selected item. Source images and recognized text are not uploaded to MaAlarm servers and are not retained by the app after the user finishes the review flow. Users should review suggestions before saving.
 
 ## Notifications
 
